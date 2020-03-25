@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch", "PeopleSearch\PeopleSearch.csproj", "{F220025C-69BA-4343-B0E2-F4A82D3B9810}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{DC79D2FD-5DD5-4EF0-94CB-7A332EB1276B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{56D87858-0E00-4233-A306-8764E55634EB}"
+	ProjectSection(SolutionItems) = preProject
+		People.cs = People.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F220025C-69BA-4343-B0E2-F4A82D3B9810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F220025C-69BA-4343-B0E2-F4A82D3B9810}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F220025C-69BA-4343-B0E2-F4A82D3B9810}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F220025C-69BA-4343-B0E2-F4A82D3B9810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC79D2FD-5DD5-4EF0-94CB-7A332EB1276B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC79D2FD-5DD5-4EF0-94CB-7A332EB1276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC79D2FD-5DD5-4EF0-94CB-7A332EB1276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC79D2FD-5DD5-4EF0-94CB-7A332EB1276B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
