@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ymoYwIj2kuv/dJ700h0Oi2jRJQOBfXbN46ta5yiAAcskPXs3Y8LgMTrx+4/x7SbY+QzFbVHo/+KlwCPT4B2WdA==",
+  "dgSpecHash": "plrCrXWnI6EXo+5Mdp/5lLXqCFiu8q4jd1j8QGFq5VEyZ2foNruRIlQ6LFKLuh/x4674lVujC+nOKCH0NgRgLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ryan\\source\\repos\\API\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.3\\microsoft.entityframeworkcore.3.1.3.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.3\\microsoft.entityframeworkcore.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.3\\microsoft.entityframeworkcore.analyzers.3.1.3.nupkg.sha512",
+    "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.3\\microsoft.entityframeworkcore.inmemory.3.1.3.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.3\\microsoft.entityframeworkcore.relational.3.1.3.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.3\\microsoft.entityframeworkcore.sqlserver.3.1.3.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.3\\microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
