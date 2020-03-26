@@ -10,6 +10,6 @@ namespace API.Model
 
         }
 
-        public DbSet<People> users { get; set; }
+        public DbSet<People> Users { get; set; }
     }
 }
