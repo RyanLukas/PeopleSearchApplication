@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{56D87858-0E00-4233-A306-8764E55634EB}"
-	ProjectSection(SolutionItems) = preProject
-		PeopleSearch\Context.cs = PeopleSearch\Context.cs
-		PeopleSearch\People.cs = PeopleSearch\People.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{6BB011EF-42F6-4789-8ED1-F51BB3062B7E}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BB011EF-42F6-4789-8ED1-F51BB3062B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB011EF-42F6-4789-8ED1-F51BB3062B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB011EF-42F6-4789-8ED1-F51BB3062B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB011EF-42F6-4789-8ED1-F51BB3062B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
