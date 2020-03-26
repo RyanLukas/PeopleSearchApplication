@@ -9,7 +9,7 @@ using API.Model;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/People")]
     [ApiController]
     public class PeopleController : ControllerBase
     {
@@ -21,6 +21,7 @@ namespace API.Controllers
         }
 
         // GET: api/People
+        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<People>>> GetUsers()
         {
@@ -40,6 +41,8 @@ namespace API.Controllers
 
             return people;
         }
+
+
 
         // PUT: api/People/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
@@ -81,7 +84,7 @@ namespace API.Controllers
         {
             _context.Users.Add(people);
             await _context.SaveChangesAsync();
-
+             
             return CreatedAtAction(nameof(GetPeople), new { id = people.Id }, people);
         }
 
