@@ -1,4 +1,11 @@
+
+
 <Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<Target Name="client-app" BeforeTargets="ComputeFilesToPublish">
+		<Exec Command="npm install" WorkingDirectory="client-app"></Exec>
+		<Exec Command="npm run build" WorkingDirectory="client-app"></Exec>
+	</Target>
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -14,6 +21,11 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
     <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="vue" Version="2.6.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\API.csproj": {}
+    "C:\\Users\\Ryan\\source\\repos\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\API.csproj": {
+    "C:\\Users\\Ryan\\source\\repos\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Ryan\\source\\repos\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Ryan\\source\\repos\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\obj\\",
+        "outputPath": "C:\\Users\\Ryan\\source\\repos\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,6 +66,10 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[4.7.0, )"
+            },
+            "vue": {
+              "target": "Package",
+              "version": "[2.6.11, )"
             }
           },
           "imports": [

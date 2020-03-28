@@ -32,6 +32,7 @@ namespace API
                 app.UseDeveloperExceptionPage();
             }
 
+            //for js site 
             app.UseDefaultFiles();
             app.UseStaticFiles();
 

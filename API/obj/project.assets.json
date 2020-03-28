@@ -2731,6 +2731,9 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "vue/2.6.11": {
+        "type": "package"
       }
     }
   },
@@ -8630,6 +8633,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "vue/2.6.11": {
+      "sha512": "QvC2UH8Eaz/aEc6+bf1WpdtZl8iAToPuPxI2To6yDfOyqcTL4fvAlpNix1TXzSVQhPcABmbDcDt49uq/HcNmOQ==",
+      "type": "package",
+      "path": "vue/2.6.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/vue.js",
+        "Content/Scripts/vue.min.js",
+        "images/icon.png",
+        "license/LICENSE.txt",
+        "vue.2.6.11.nupkg.sha512",
+        "vue.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -8639,7 +8657,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1",
-      "System.Drawing.Common >= 4.7.0"
+      "System.Drawing.Common >= 4.7.0",
+      "vue >= 2.6.11"
     ]
   },
   "packageFolders": {
@@ -8649,11 +8668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ryan\\source\\repos\\API\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Ryan\\source\\repos\\API\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ryan\\source\\repos\\API\\API\\obj\\",
+      "outputPath": "C:\\Users\\Ryan\\Source\\Repos\\API\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8708,6 +8727,10 @@
           "System.Drawing.Common": {
             "target": "Package",
             "version": "[4.7.0, )"
+          },
+          "vue": {
+            "target": "Package",
+            "version": "[2.6.11, )"
           }
         },
         "imports": [
